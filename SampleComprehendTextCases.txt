@@ -1,0 +1,17 @@
+1) Customer will be visiting on Monday with Passport details to verify his identity.
+NO PII
+
+2) Customer will be visiting on Monday with Passport number J712311 for his checking account number 38787872
+{"score":0.99994767,"entityType":"PASSPORT_NUMBER","beginOffSet":57,"endOffSet":64},{"score":0.9999447,"entityType":"BANK_ACCOUNT_NUMBER","beginOffSet":97,"endOffSet":105}]
+
+3) Customer want to modify his phone number to 72832134 for all his account. Unable to modify, app was under maintenance.
+[{"score":0.99978954,"entityType":"PHONE","beginOffSet":44,"endOffSet":52}]
+
+3) Primary account holder want to add nominee details for all his account.
+No PII
+
+4) Customer will be visiting on Monday with SSN details to verify his identity.
+No PII
+
+5) Existing address need be modified with new address as 123 main street NY
+[{"score":0.9997396,"entityType":"ADDRESS","beginOffSet":39,"endOffSet":57}]
